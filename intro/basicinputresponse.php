@@ -3,5 +3,5 @@
 		$fname = $_POST['firstname'];
 		$lname = $_POST['lastname'];
 		
-		echo ("Hello ". "$fname "."$lname "."!");
+		echo ("Hello ". "$fname "."<br/>$lname "."!");
 ?>
