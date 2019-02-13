@@ -3,9 +3,10 @@
     $servername = "127.0.0.1:50818";
     $username = "azure";
     $password = "6#vWHD_$";
+    $dbname = "localdb";
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Check connection
     if ($conn->connect_error) {
