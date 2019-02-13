@@ -13,4 +13,6 @@
     }
     echo "Connected successfully";
 
+    $sql = "SELECT * FROM testtable"
+
 ?>
