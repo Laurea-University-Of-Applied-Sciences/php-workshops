@@ -17,9 +17,10 @@
 <head>
     <meta charset="utf-8">
     <title>Check if weekend</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
- 
 <body>
+    <h1>Check if Weekend</h1>
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 		What day today is?<br>
 		<input type="text" name="day">

@@ -61,8 +61,12 @@
   if (empty($_SESSION['userid'])) {
     echo '<p class="error">' . $error_msg . '</p>';
 ?>
-
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
 <body>
+    <h1>Login</h1>
   <form method="post" action="login.php">
 	Enter your username:<br>
 	<input type='text' name='username'>

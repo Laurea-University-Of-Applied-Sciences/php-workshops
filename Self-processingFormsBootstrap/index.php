@@ -26,10 +26,11 @@ the calculator. The HTML code below will always be processed, independently if t
 <head>
     <meta charset="utf-8">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
  
 <body>
-	<h2> Simple Calculator </h2> 
+	<h1> Simple Calculator </h1>
 	<!-- In a self-processing form, the action URL points to this same file, i.e $_SERVER['PHP_SELF'] -->
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 		Enter a value for X:<br>

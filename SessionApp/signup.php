@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-<body>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <h1>Sign Up</h1>
 <?php
 /* This php block will only be executed after the user submits the signup data
  by clicking the sign-up button
@@ -68,27 +72,25 @@ require_once('dbinfo.php');
   mysqli_close($dbc);
 ?>
 
-<p>Provide a username and password to sign up.</p>
+        <p>Provide a username and password to sign up.</p>
+        <form action='signup.php' method='post'>
+            Enter your username:<br>
+            <input type='text' name='username'>
+            <br><br>
 
-<form action='signup.php' method='post'>
-	Enter your username:<br>
-	<input type='text' name='username'>
- 	<br><br>
-  
-	In which city were you born?:<br>
-	<input type='text' name='city'>
- 	<br><br>
+            In which city were you born?:<br>
+            <input type='text' name='city'>
+            <br><br>
 
-  	Enter a password:<br>
-  	<input type='password' name='password1'>
-  	<br><br>
+            Enter a password:<br>
+            <input type='password' name='password1'>
+            <br><br>
 
-  	Retype the password:<br>
-  	<input type='password' name='password2'>
-  	<br><br>
-  		
-	<input type='submit' value='Sign Up' name='signing-up'>
-</form>
+            Retype the password:<br>
+            <input type='password' name='password2'>
+            <br><br>
 
-</body>
+            <input type='submit' value='Sign Up' name='signing-up'>
+        </form>
+    </body>
 </html>

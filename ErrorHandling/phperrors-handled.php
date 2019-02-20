@@ -48,10 +48,11 @@ concepts described in class -->
 <head>
     <meta charset="utf-8">
     <title>Validation and sanitization examples</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
  
 <body>
-
+    <h1>Error Handled</h1>
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 		Divide 100 by (or enter "0" to produce an error):
 		<input type="text" name="valueInteger">

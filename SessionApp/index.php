@@ -17,7 +17,12 @@
 
 <!DOCTYPE html>
 <html>
-
+    <head>
+        <title>SessionApp</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <h1>Session App</h1>
 <?php
  
   // Generate the navigation menu
@@ -35,5 +40,5 @@
     echo '<a href="signup.php">Sign Up</a>';
   }
 ?>
-
+    </body>
 </html>
